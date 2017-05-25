@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10c274e1-e1e4-4c50-b5ba-b796d2111dd1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ceeacb60-1cfd-42ac-aa0f-bf53e00737f1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{693a1ada-9279-4a0b-9fc3-f9f902d63335}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewCtrlEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lzw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClientInfoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClientMainView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClientProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClientTitleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCreateClientDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEventView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGlobalFuc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHtmlView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySetupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThreadFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PcShare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WjcDes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PcShare.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewCtrlEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lzw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myclientinfoview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myclientmainview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClientProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClientTitleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCreateClientDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEventView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHtmlView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMarco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySetupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PcShare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WjcDes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\1-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\10.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\11.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\12.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\13.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\14.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\22.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\23.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\24.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\26.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\27.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\28.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\4.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\5.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\5104.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\6.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\7.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\8.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\9.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\banner.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CHECKMRK.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Downing.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTrans.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Frame.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hdrdown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hdrdown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hdrup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hdrup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon9.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_com.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\link_logo.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NETHOOD.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PcShare.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PcShareDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sanparty.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Screen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SysConTrol.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UnDown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\W95MBX01.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\W95MBX04.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Waitdown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\全局设置.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\注册表管理.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\生成客户.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\超级终端.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bin00001.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00002.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\exe1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\exe_clie.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gif_inde.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PcShare.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WAIT07.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\全局设置">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\全部开始">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\全部暂停">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\关于.b">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\删除任务">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\删除客户">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\屏幕监控">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\帮助.b">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\服务管理">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\注册表管">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\生成客户">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\管理客户">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\视音频">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\视音频监">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\超级终端">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\进程管理">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\键盘监控">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

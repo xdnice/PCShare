@@ -1,0 +1,462 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PcShare.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+IDI_ICON_COMPUTER       ICON    DISCARDABLE     "res\\icon_com.ico"
+IDI_ICON_EVENT_NORMAL   ICON    DISCARDABLE     "res\\W95MBX04.ICO"
+IDI_ICON_EVENT_ERROR    ICON    DISCARDABLE     "res\\W95MBX01.ICO"
+IDI_ICON_INFO_HARD      ICON    DISCARDABLE     "res\\SysConTrol.ico"
+IDI_ICON_INFO_IDIO      ICON    DISCARDABLE     "res\\Screen.ico"
+IDI_ICON_INFO_NET       ICON    DISCARDABLE     "res\\Frame.ico"
+IDI_ICON_INFO_USER      ICON    DISCARDABLE     "res\\5104.ICO"
+IDI_ICON_SETUP          ICON    DISCARDABLE     "res\\NETHOOD.ICO"
+IDI_ICON_VIDEO          ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP_HELP         BITMAP  MOVEABLE PURE   "res\\帮助.bmp"
+IDB_BITMAP_MANA         BITMAP  MOVEABLE PURE   "res\\管理客户.bmp"
+IDB_BITMAP_SETUP        BITMAP  MOVEABLE PURE   "res\\全局设置.bmp"
+IDB_BITMAP_CREATE       BITMAP  MOVEABLE PURE   "res\\生成客户.bmp"
+IDB_BITMAP_FRAME        BITMAP  MOVEABLE PURE   "res\\屏幕监控.bmp"
+IDB_BITMAP_KEY          BITMAP  MOVEABLE PURE   "res\\键盘监控.bmp"
+IDB_BITMAP_TLNT         BITMAP  MOVEABLE PURE   "res\\超级终端.bmp"
+IDB_BITMAP_INDEX        BITMAP  MOVEABLE PURE   "res\\关于.bmp"
+IDB_BITMAP_REGEDIT      BITMAP  DISCARDABLE     "res\\注册表管理.bmp"
+IDB_BITMAP_SERVICE      BITMAP  DISCARDABLE     "res\\服务管理.bmp"
+IDB_BITMAP_MULIT        BITMAP  DISCARDABLE     "res\\视音频监控.bmp"
+IDB_BITMAP_PROC         BITMAP  DISCARDABLE     "res\\进程管理.bmp"
+IDB_HDRDOWN             BITMAP  DISCARDABLE     ".\\res\\hdrdown.bmp"
+IDB_HDRUP               BITMAP  DISCARDABLE     "res\\hdrup.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  26, 25
+BEGIN
+    BUTTON      ID_CLIENT_FILE_MANAGER
+    BUTTON      ID_FRAME_MONITOR
+    BUTTON      ID_TLNT
+    BUTTON      ID_MONITORKEY
+    SEPARATOR
+    BUTTON      ID_PROC
+    BUTTON      ID_REGEDIT
+    BUTTON      ID_SERVICE
+    BUTTON      ID_MUILT
+    SEPARATOR
+    BUTTON      ID_GLOBAL_SETUP
+    BUTTON      ID_CLIENT_CREATE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SETUP DIALOGEX 0, 0, 219, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统参数设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PORT_MAIN,135,14,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_PORT_MAIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,164,14,11,14
+    EDITTEXT        IDC_EDIT_MAX_LINK_MAIN,135,31,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_MAX_LINK_MAIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,164,31,11,14
+    DEFPUSHBUTTON   "确定",IDOK,40,60,50,14
+    PUSHBUTTON      "取消",IDCANCEL,137,59,50,14
+    LTEXT           "最大客户连接数量：",IDC_STATIC,52,35,72,8
+    LTEXT           "自动上线连接端口：",IDC_STATIC,52,18,73,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,4,54,214,
+                    1
+    ICON            IDI_ICON_SETUP,IDC_STATIC,14,10,20,20,SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE
+END
+
+IDD_DIALOG_CREATE_CLIENT DIALOG DISCARDABLE  0, 0, 256, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "生成被控制端执行程序"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_COMBO_IPLIST,73,21,113,171,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PORT,215,20,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "生成",IDC_BUTTON_CREATE,56,138,50,14
+    PUSHBUTTON      "取消",IDCANCEL,156,138,50,14
+    LTEXT           "本机IP地址：",IDC_STATIC,20,23,49,8
+    LTEXT           "端口：",IDC_STATIC,189,24,25,8
+    LTEXT           "程序运行方式：",IDC_STATIC,16,117,56,8
+    CONTROL         "使用本机静态IP地址或他方动态域名转换方式",IDC_RADIO_VIP,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,7,7,176,10
+    CONTROL         "使用VIP内置动态域名转换(可以填一个备份连接URL)",
+                    IDC_RADIO_NOVIP,"Button",BS_AUTORADIOBUTTON,7,49,200,10
+    COMBOBOX        IDC_COMBO_PROC,73,113,172,143,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "指定备份URL：",IDC_STATIC,16,68,53,8
+    EDITTEXT        IDC_EDIT_BAK_URL,73,65,172,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | SS_SUNKEN,9,42,236,
+                    1
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | SS_SUNKEN,10,86,236,
+                    1
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | SS_SUNKEN,10,133,
+                    236,1
+    LTEXT           "插件文件名称：",IDC_STATIC,16,97,57,8
+    EDITTEXT        IDC_EDIT_CONTROL_DLL,73,93,172,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CLIENT_TITLE DIALOG DISCARDABLE  0, 0, 227, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改客户注释"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_TITLE,53,11,163,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,95,31,50,14
+    LTEXT           "客户注释：",IDC_STATIC,11,14,41,8
+END
+
+IDD_DIALOG_CLIENT_PROXY DIALOG DISCARDABLE  0, 0, 141, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "启动客户端代理服务"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_TITLE,81,12,45,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认启动",IDOK,46,33,50,14
+    LTEXT           "客户端侦听端口：",IDC_STATIC,11,14,65,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PcShare 远程控制类应用程序\0"
+            VALUE "FileVersion", "3, 1, 0, 3\0"
+            VALUE "InternalName", "PcShare\0"
+            VALUE "LegalCopyright", "版权所有 (无可非议) 2003 QQ:4564405\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PcShare.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PcShare 远程控制\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LOGO         CURSOR  DISCARDABLE     "res\\hand.cur"
+IDC_CURSOR_WAIT         CURSOR  DISCARDABLE     "res\\WAIT07.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_SANPARTY            GIF     MOVEABLE PURE   "res\\banner.gif"
+IDR_20CN                GIF     MOVEABLE PURE   "res\\link_logo.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_FILE_MANA MENU DISCARDABLE 
+BEGIN
+    POPUP "ss"
+    BEGIN
+        MENUITEM "卸载客户端程序",              ID_CLIENT_PRO_UNINSTALL
+        MENUITEM "关闭客户计算机",              ID_CLIENT_PC_SHUTDOWN
+        MENUITEM "重启客户计算机",              ID_CLIENT_PC_RESTART
+        MENUITEM SEPARATOR
+        MENUITEM "更改客户注释",                ID_MODIFY_TITLE
+        MENUITEM "启动客户代理服务",            ID_CLIENT_PROXY
+    END
+END
+
+IDR_MENU_LOG_LIST MENU DISCARDABLE 
+BEGIN
+    POPUP "ss"
+    BEGIN
+        MENUITEM "删除选定日志",                ID_LIST_DELETE_ITEM
+        MENUITEM "清空日志列表",                ID_LIST_EMPTY_ITEM
+        MENUITEM "保存日志列表",                ID_SAVE_LIST_LOG
+    END
+END
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "设置(&W)"
+    BEGIN
+        MENUITEM "全局参数设置(&S)",            ID_GLOBAL_SETUP
+        MENUITEM "生成客户端文件(&W)",          ID_CLIENT_CREATE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_DIALOG_CREATE_CLIENT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 255
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_CREATE_CLIENT DLGINIT
+BEGIN
+    IDC_COMBO_PROC, 0x403, 34, 0
+0xf8bd, 0xccb3, 0xe5b2, 0xebc8, 0xbdb5, 0x4957, 0x444e, 0x574f, 0xd753, 
+0xd4ca, 0xb9b4, 0xc0dc, 0xc6ed, 0xbaf7, 0xd4f3, 0xd0cb, 0x00d0, 
+    IDC_COMBO_PROC, 0x403, 39, 0
+0xf4c6, 0xafb6, 0xbbd2, 0xf6b8, 0xc2d0, 0xc4b5, 0x4549, 0xf8bd, 0xccb3, 
+0xd9d4, 0xe5b2, 0xebc8, 0xbdb5, 0xcbb4, 0xf8bd, 0xccb3, 0xf3ba, 0xcbd4, 
+0xd0d0, "\000" 
+    IDC_COMBO_PROC, 0x403, 38, 0
+0xb1d6, 0xd3bd, 0xf6d7, 0xaace, 0xa5b5, 0xf6b8, 0xf8bd, 0xccb3, 0xf4c6, 
+0xafb6, 0xc42c, 0xbfdc, 0xb5b4, 0xb1bd, 0xd4be, 0xd0cb, 0xbdd0, 0xb3f8, 
+0x00cc, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "PcShare\n\nPcShar\n\n\nPcShare.Document\nPcShar Document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "PcShare"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CLIENT_LINK_COUNT    "共有0个客户"
+    ID_FILE_TRANS_COUNT     "0个"
+    ID_FRAME_SIZE           "0×0"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CLIENT_MANAGER       "管理客户计算机\n管理客户计算机"
+    ID_GLOBAL_SETUP         "参数设置\n参数设置"
+    ID_CLIENT_CREATE        "创建客户端执行程序\n创建客户端执行程序"
+    ID_CLIENT_PRO_UNINSTALL "卸载客户端程序\n卸载客户端程序"
+    ID_CLIENT_PC_SHUTDOWN   "关闭客户计算机\n关闭客户计算机"
+    ID_CLIENT_PC_RESTART    "重启客户计算机\n重启客户计算机"
+    ID_ALIVE_HELP           "在线帮助\n在线帮助"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DELETE_FILE_TRANS    "清空文件传输列表\n清空文件传输列表"
+    ID_SAVE_LIST_LOG        "保存日志列表\n保存日志列表"
+    ID_FRAME_MONITOR        "监控客户屏幕\n监控客户屏幕"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MULT_MONITOR         "反向超级终端\n反向超级终端"
+    ID_MONITORKEY           "键盘监控\n键盘监控"
+    ID_TLNT                 "反向超级终端\n反向超级终端"
+    ID_MODIFY_TITLE         "更改客户注释\n更改客户注释"
+    ID_CLIENT_FILE_MANAGER  "文件管理\n文件管理"
+    ID_REGEDIT              "注册表管理\n注册表管理"
+    ID_PROC                 "进程管理\n进程管理"
+    ID_SERVICE              "服务管理\n服务管理"
+    ID_MUILT                "视频监控\n视频监控"
+    ID_CLIENT_PROXY         "启动客户代理服务\n启动客户代理服务"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HELP                 "软件相关信息\n软件相关信息"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LIST_DELETE_ITEM     "删除选定日志\n删除选定日志"
+    ID_LIST_EMPTY_ITEM      "清空日志列表\n清空日志列表"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PcShare.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

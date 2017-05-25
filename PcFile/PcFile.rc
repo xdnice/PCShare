@@ -1,0 +1,514 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PcFile.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\icon_com.ico"
+IDI_ICON7               ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_ICON6               ICON    DISCARDABLE     "RES\\NoFix.ico"
+IDI_ICON5               ICON    DISCARDABLE     "RES\\RemoteDisk.ico"
+IDI_ICON4               ICON    DISCARDABLE     "RES\\DRIVE.ICO"
+IDI_ICON3               ICON    DISCARDABLE     "RES\\CLSDFOLD.ICO"
+IDI_ICON2               ICON    DISCARDABLE     "RES\\CDDRIVE.ICO"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON_DIR            ICON    DISCARDABLE     "RES\\DirOpen.ico"
+IDI_ICON_T_PREV         ICON    DISCARDABLE     "res\\icon8.ico"
+IDI_ICON_T_FLUSH        ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_ICON_T_FIND         ICON    DISCARDABLE     "res\\icon9.ico"
+IDI_ICON_T_CREATE       ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_ICON_T_DELETE       ICON    DISCARDABLE     "res\\ico00004.ico"
+IDI_ICON_T_DL           ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_ICON_T_RENAME       ICON    DISCARDABLE     "res\\ico00006.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_DIR_PREV
+    BUTTON      ID_DIR_FLUSH
+    BUTTON      ID_DIR_FIND_FILE
+    BUTTON      ID_DIR_CREATE
+    BUTTON      ID_DIR_RIGHT_DELETE
+    BUTTON      ID_DIR_RIGHT_DOWNLOAD
+    BUTTON      ID_DIR_RIGHT_RENAME
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_DIR_RIGHT_EMPTY MENU DISCARDABLE 
+BEGIN
+    POPUP "空"
+    BEGIN
+        MENUITEM "后退",                        32771
+        MENUITEM "刷新",                        ID_DIR_FLUSH
+        MENUITEM "全选",                        ID_DIR_RIGHT_SELALL
+        MENUITEM SEPARATOR
+        MENUITEM "上传文件",                    32791
+        MENUITEM "新建文件夹",                  ID_DIR_CREATE
+        MENUITEM "上传运行文件",                ID_DIR_RIGHT_UPLOAD_EXEC
+        MENUITEM SEPARATOR
+        MENUITEM "属性",                        ID_DIR_ATTRIB
+    END
+END
+
+IDR_MENU_DIR_RIGHT MENU DISCARDABLE 
+BEGIN
+    POPUP "空"
+    BEGIN
+        MENUITEM "打开",                        ID_DIR_RIGHT_OPEN
+        MENUITEM "删除",                        ID_DIR_RIGHT_DELETE
+        MENUITEM "下载",                        ID_DIR_RIGHT_DOWNLOAD
+        MENUITEM "重命名",                      ID_DIR_RIGHT_RENAME
+        MENUITEM "远程运行",                    ID_DIR_RIGHT_EXEC_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "属性",                        ID_DIR_RIGHT_ATTRIB
+    END
+END
+
+IDR_MENU_MANA MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "关闭(&X)",                    ID_EXIT
+    END
+    POPUP "编辑(&V)"
+    BEGIN
+        MENUITEM "后退(&P)",                    ID_DIR_PREV
+        MENUITEM "刷新(&X)",                    ID_DIR_FLUSH
+        MENUITEM "搜索(&R)",                    ID_DIR_FIND_FILE
+        MENUITEM "创建(&S)",                    ID_DIR_CREATE
+        MENUITEM "删除(&D)",                    ID_DIR_RIGHT_DELETE
+        MENUITEM "下载(&I)",                    ID_DIR_RIGHT_DOWNLOAD
+        MENUITEM "命名(&M)",                    ID_DIR_RIGHT_RENAME
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&G)",                    ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_FINDFILE MENU DISCARDABLE 
+BEGIN
+    POPUP "空"
+    BEGIN
+        MENUITEM "打开",                        ID_FIND_RIGHT_OPEN
+        MENUITEM "删除",                        ID_FIND_DELETE
+        MENUITEM "下载",                        ID_FIND_DOWNLOAD
+        MENUITEM "远程运行",                    ID_FIND_EXEC_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "属性",                        ID_FIND_ATTRIB
+    END
+END
+
+IDR_MENU_FILE_TRANS MENU DISCARDABLE 
+BEGIN
+    POPUP "Filetrans"
+    BEGIN
+        MENUITEM "开始传输文件(&S)",            ID_FILE_TRANS_START
+        MENUITEM "停止传输文件(&T)",            ID_FILE_TRANS_STOP
+        MENUITEM "从对列中删除(&F)",            ID_FILE_TRANS_DELETE
+        MENUITEM "删除所有项目(&D)",            ID_FILE_TRANS_DELETE_ALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    VK_F5,          ID_DIR_FLUSH,           VIRTKEY, NOINVERT
+    "A",            ID_DIR_RIGHT_SELALL,    VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 PcFile"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "PcFile 1.0 版(PcShare文件管理器)",IDC_STATIC,40,10,134,
+                    8,SS_NOPREFIX
+    LTEXT           "版权所有 无可非议(C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DIALOG_FINDFILE DIALOG DISCARDABLE  0, 0, 502, 231
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "搜索结果"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_FILE,8,59,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DIR,8,123,110,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "开始搜索",IDOK,39,162,50,14
+    LTEXT           "要搜索的文件名称:",IDC_STATIC,8,45,69,8
+    LTEXT           "搜索目录:",IDC_STATIC,8,110,37,8
+    CONTROL         "List1",IDC_LIST_FILE,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,132,0,370,230
+    GROUPBOX        "搜索文件",IDC_STATIC,3,10,120,205
+END
+
+IDD_DIALOG_FILE_TRANS DIALOG DISCARDABLE  0, 0, 234, 77
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PcShare文件传输"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "取消",IDCANCEL,184,61,50,14
+    CONTROL         "Progress1",IDC_PROGRESS_FILE,"msctls_progress32",
+                    WS_BORDER,2,63,177,10
+    LTEXT           "Static",ID_FILE_SRC,18,36,211,8
+    LTEXT           "Static",ID_FILE_DES,17,49,212,8
+    CONTROL         "Animate1",IDC_ANIMATE_FILE,"SysAnimate32",
+                    ACS_TRANSPARENT | ACS_AUTOPLAY,29,1,20,20
+    LTEXT           "从:",IDC_STATIC,4,36,11,8
+    LTEXT           "到:",IDC_STATIC,4,49,13,8
+END
+
+IDD_DIALOG_FILEINFO DIALOG DISCARDABLE  0, 0, 161, 101
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文件信息"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "位    置:",IDC_STATIC,2,7,37,8
+    EDITTEXT        IDC_EDIT_PATH,40,4,118,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "大    小:",IDC_STATIC,2,33,37,8
+    LTEXT           "0",IDC_STATIC_LEN,41,33,118,8
+    LTEXT           "创建时间:",IDC_STATIC,2,49,37,8
+    LTEXT           "0",IDC_STATIC_CREATETIME,41,49,118,8
+    LTEXT           "类    型:",IDC_STATIC,2,21,37,8
+    LTEXT           "0",IDC_STATIC_TYPE,41,21,118,8
+    LTEXT           "属性:",IDC_STATIC,10,87,22,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,0,43,159,
+                    1
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,0,82,159,
+                    1
+    LTEXT           "修改时间:",IDC_STATIC,2,60,37,8
+    LTEXT           "0",IDC_STATIC_MODIFYTIME,41,60,118,8
+    LTEXT           "访问时间:",IDC_STATIC,2,71,37,8
+    LTEXT           "0",IDC_STATIC_ACCESSTIME,41,71,118,8
+    CONTROL         "只读",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    42,88,28,8
+    CONTROL         "隐藏",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    82,88,28,8
+    CONTROL         "存档",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    122,88,28,8
+END
+
+IDD_DIALOG_DISKINFO DIALOG DISCARDABLE  0, 0, 148, 83
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "磁盘信息"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "卷    标:",IDC_STATIC,2,7,37,8
+    EDITTEXT        IDC_EDIT_VOLUM,40,4,107,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "已用空间:",IDC_STATIC,2,50,37,8
+    LTEXT           "0",IDC_STATIC_USE,41,50,107,8
+    LTEXT           "类    型:",IDC_STATIC,2,21,37,8
+    LTEXT           "0",IDC_STATIC_TYPE,41,21,107,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,0,44,148,
+                    1
+    LTEXT           "文件系统:",IDC_STATIC,2,34,37,8
+    LTEXT           "0",IDC_STATIC_FAT_TYPE,41,34,107,8
+    LTEXT           "可用空间:",IDC_STATIC,2,61,37,8
+    LTEXT           "0",IDC_STATIC_UNUSE,41,61,107,8
+    LTEXT           "容    量:",IDC_STATIC,2,72,37,8
+    LTEXT           "0",IDC_STATIC_CONTENT,41,72,107,8
+END
+
+IDD_DIALOG_DIRINFO DIALOG DISCARDABLE  0, 0, 159, 89
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "目录信息"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "位    置:",IDC_STATIC,2,7,37,8
+    EDITTEXT        IDC_EDIT_PATH,40,4,118,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "大    小:",IDC_STATIC,2,36,37,8
+    LTEXT           "0",IDC_STATIC_LEN,41,36,118,8
+    LTEXT           "创建时间:",IDC_STATIC,2,59,37,8
+    LTEXT           "0",IDC_STATIC_CREATETIME,41,60,118,8
+    LTEXT           "包    括:",IDC_STATIC,2,48,37,8
+    LTEXT           "0",IDC_STATIC_FILECOUNT,41,48,118,8
+    LTEXT           "类    型:",IDC_STATIC,2,21,37,8
+    LTEXT           "0",IDC_STATIC_TYPE,41,21,118,8
+    LTEXT           "属性:",IDC_STATIC,9,76,21,8
+    CONTROL         "",IDC_CHECK_READONLY,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | BS_VCENTER,36,76,16,8
+    CONTROL         "",IDC_CHECK_HIDE,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT,
+                    76,76,16,8
+    CONTROL         "",IDC_CHECK_ARICH,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT,115,76,16,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,0,31,158,
+                    1
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,0,70,158,
+                    1
+    LTEXT           "只读",IDC_STATIC,55,76,17,8
+    LTEXT           "隐藏",IDC_STATIC,95,76,17,8
+    LTEXT           "存档",IDC_STATIC,134,76,17,8
+END
+
+IDD_DIALOG_RENAME DIALOGEX 0, 0, 212, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建目录"
+FONT 9, "宋体", 400
+BEGIN
+    EDITTEXT        IDC_EDIT_VALUE,55,12,148,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "确认",IDOK,81,32,50,14
+    LTEXT           "目录名称:",IDC_STATIC,12,15,37,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "PcFile Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PcFile\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2005\0"
+            VALUE "OriginalFilename", "PcFile.EXE\0"
+            VALUE "ProductName", "PcFile 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_AVI_FILE            AVI     MOVEABLE PURE   "res\\avi1.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_WAIT         CURSOR  DISCARDABLE     "RES\\WAIT07.CUR"
+IDC_CURSOR_LOGO         CURSOR  DISCARDABLE     "RES\\hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "PcFile"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "PcFile"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+    IDS_MYDIRFILES          "  "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DIR_PREV             "后退\n后退"
+    ID_DIR_FIND_FILE        "搜索文件\n搜索文件"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DIR_RIGHT_DELETE     "删除\n删除"
+    ID_DIR_RIGHT_RENAME     "重命名\n重命名"
+    ID_DIR_RIGHT_DOWNLOAD   "下载\n下载"
+    ID_DIR_RIGHT_UPLOAD_EXEC "上传运行文件\n上传运行文件"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EXIT                 "关闭程序\n关闭程序"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DIR_CREATE           "创建新目录\n创建新目录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_TRANS_DELETE_ALL "删除所有项目\n删除所有项目"
+    ID_FILE_TRANS_START     "开始传输文件\n开始传输文件"
+    ID_FILE_TRANS_STOP      "停止传输文件\n停止传输文件"
+    ID_FILE_TRANS_DELETE    "从对列中删除\n从对列中删除"
+    ID_FILE_TRANS_RESTART   "重置传输状态\n重置传输状态"
+    ID_DIR_RIGHT_UPLOAD     "上传文件\n上传文件"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DIR_FLUSH            "刷新\n刷新"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PcFile.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

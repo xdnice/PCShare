@@ -1,0 +1,9 @@
+; PcCortr.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PcCortr"
+DESCRIPTION  'PcCortr Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+	ProcessTrans	@1

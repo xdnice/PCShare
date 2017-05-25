@@ -1,0 +1,14 @@
+#################
+# ignore vs generated files
+################
+
+*.sdf
+*.ipch
+*.pch
+*.ilk
+*.pdb
+*.obj
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
