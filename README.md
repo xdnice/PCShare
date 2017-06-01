@@ -16,7 +16,7 @@ PCShare是一款强大的远程控制软件，可以监视目标机器屏幕、�
 
 三、程序编译：
 
-用VS2015打开PcShare目录下PcShare.sln，运行编译即可。如果需要调试控制端或者被控制端，你可以先在外部启动一个，再在VS里面调试另外一个。
+程序使用mfc框架开发，用VS2015打开PcShare目录下PcShare.sln，运行编译即可。如果需要调试控制端或者被控制端，你可以先在外部启动一个，再在VS里面调试另外一个。具体详情参见：http://blog.csdn.net/analogous_love/article/details/72835754
 
 四、问题反馈
-  QQ: 906106643   email: balloonwj@qq.com  
+  QQ: 906106643   email: balloonwj@qq.com  QQ群：49114021
